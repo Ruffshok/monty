@@ -1,7 +1,7 @@
 #include "monty.h"
 int SQ = 1;
 /**
- * main - main function for monty
+ * monty - main function for monty
  * @argc: argument count
  * @argv: array of argument strings
  *
