@@ -44,6 +44,7 @@ instruction_t *parse_line(char *line);
 void free_stack(stack_t *head);
 char *get_opcode(char *string);
 int is_int(char *str);
+int main(int argc, char **argv);
 void push(stack_t **stack, unsigned int line_number);
 void pall(stack_t **stack, unsigned int line_number);
 void pint(stack_t **stack, unsigned int line_number);
